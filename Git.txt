@@ -1,0 +1,8 @@
+git add .
+git reset -- IrisTG\Properties\launchSettings.json
+git reset -- IrisTG\appsettings.json
+git commit -m "Corrections"
+git branch -M main
+git push -uf origin main
+
+
