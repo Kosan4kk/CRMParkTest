@@ -27,7 +27,7 @@ namespace CRMParkBot.Commands
                 return false;
             }
             var chatId = update.Message.Chat.Id;
-            await _botClient.SendTextMessageAsync(chatId, "Имя: Иван Иванов\nEmail: ivan@example.com\nGitHub: https://github.com/ivanivanov", replyMarkup: new ForceReplyMarkup { Selective = true }); ;
+            await _botClient.SendTextMessageAsync(chatId, "Имя и фамилия: Дегтярев Константин\nEmail: kosandeg@gmail.com\nGitHub: https://github.com/Kosan4kk/CRMParkTest", replyMarkup: new ForceReplyMarkup { Selective = true }); ;
 
             return false;
         }
